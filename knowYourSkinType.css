@@ -1,0 +1,174 @@
+#knowYourSkinTypeContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#animationStepsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#animationSteps {
+  margin-left: 30px;
+  font-size: x-large;
+  list-style: initial;
+}
+
+#animationSteps li {
+  display: none;
+  list-style-type: decimal;
+  font-size: 45px;
+  margin-bottom: 20px;
+  /* animation: fade-in 2s forwards; */
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out{
+    0%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(-100px);
+        display: none;
+    }
+}
+
+#animationStepsImg {
+  position: relative;
+  right: 50px;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 20px;
+  background-image: url("images/faceWash1.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#nextButton {
+  position: relative;
+  height: 40px;
+  width: 80px;
+  padding: 2px 15px;
+  border-width: 3px 3px 1px 3px;
+  border-style: solid;
+  border-radius: 20px;
+  left: 80%;
+  top: 30px;
+  font-size: 30px;
+  text-align: center;
+  border-color: #fe7be1;
+  color: #551a8b;
+}
+
+#nextButton:hover {
+  cursor: pointer;
+  background: #e5d8f6;
+}
+
+#spaceDiv {
+  display: flex;
+  height: 100px;
+}
+#foundWhat {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  width: 100%;
+  height: 10rem;
+  font-size: 50px;
+  text-align: center;
+  /* position: relative; */
+  top: 150px;
+}
+
+#result {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 20%;
+}
+
+#oilyButton {
+  height: 40px;
+  width: auto;
+  padding: 2px 15px;
+  border-width: 3px 3px 1px 3px;
+  border-style: solid;
+  border-radius: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-color: #fe7be1;
+  color: #551a8b;
+}
+
+#oilyButton:hover {
+  cursor: pointer;
+  background: #e5d8f6;
+}
+
+#dryButton {
+  height: 40px;
+  width: auto;
+  padding: 2px 15px;
+  border-width: 3px 3px 1px 3px;
+  border-style: solid;
+  border-radius: 20px;
+  /* left: 80%; */
+  /* top: 30px; */
+  font-size: 30px;
+  text-align: center;
+  border-color: #fe7be1;
+  color: #551a8b;
+}
+#dryButton:hover {
+  cursor: pointer;
+  background: #e5d8f6;
+}
+
+#oily {
+  display: none;
+  height: 80px;
+  width: auto;
+  /* padding: 2px 15px; */
+  border-width: 3px 3px 1px 3px;
+  font-size: 30px;
+  text-align: center;
+  color: #551a8b;
+}
+
+#dry {
+  display: none;
+  height: 80px;
+  width: auto;
+  /* padding: 2px 15px; */
+  border-width: 3px 3px 1px 3px;
+  font-size: 30px;
+  text-align: center;
+  color: #551a8b;
+}
+
+#resultImage{
+  position: relative;
+  right: 50px;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 20px;
+  background-image: url("images/faceWash1.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

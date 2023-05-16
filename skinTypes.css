@@ -1,0 +1,134 @@
+#knowSkinTypes{
+margin-top: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url("images/skintypes.avif");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+overflow: hidden;
+white-space: nowrap;
+/* height: 16rem; */
+height:30rem;
+position: relative;
+left: 100%;
+animation: slide-in 2s forwards ;
+/* transition: 0.5s ease; */
+}
+@keyframes slide-out {
+    0%{
+        left:0%
+    }
+    100%{
+        left: 100%;
+    }
+}
+@keyframes slide-in{
+    0%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+
+
+#knowSkinTypes h1{
+    font-style: italic;
+    font-family: math;
+    font-size: xxx-large;
+    color: #2C759A;
+}
+#knowSkinTypes h1:hover{
+    cursor: pointer;
+    color : #2C759AA9;
+}
+
+#importanceSection{
+margin-top: 100px;
+display: flex ;
+justify-content: space-between;
+
+}
+
+#importance {
+    margin-left: 30px;
+    overflow: hidden;
+}
+
+
+#importanceImg{
+    display: none;
+    /* display: flex; */
+    position: relative;
+    width: 40%;
+    /* transform: translateY(-100px); */
+/* animation: fade-in 3s forwards; */
+}
+
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes fade-out{
+    0%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(-100px);
+        display: none;
+    }
+}
+
+
+
+ul{
+    margin-left: 40px;
+     margin-top: 20px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li{
+    margin-top: 50px;
+    color: #45056c;
+}
+
+
+#skinTypeButton a{
+text-decoration: none;
+font-size: 30px;
+padding: 3px 20px;
+border-width: 3px 3px 1px 3px;
+border-style: solid;
+border-radius: 20px;
+/* border-color: #cf0ca4; */
+border-color: #f12ec6;
+/* color: #551a8b; */
+color: #430978;
+}
+
+#skinTypeButton a:hover{
+    cursor: pointer;
+    background: #d7c7eb;
+    /* background: #e5d8f6; */
+    /* #ffbdf0 */
+}
+
+
+
+#contacts{
+font-size: 16px;
+font-family: 'Times New Roman', Times, serif;
+}

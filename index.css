@@ -1,0 +1,13 @@
+#mainContent {
+  width: 100%;
+  height: 35rem;
+}
+
+#video {
+  width: 100%;
+  height: 100%;
+  background-image: url("images/homePageFull.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 107% 100%;
+}
